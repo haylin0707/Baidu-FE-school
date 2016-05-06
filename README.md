@@ -74,7 +74,7 @@
 
 效果如下图：
 
-![图片](img/task0001_2.jpg)
+![图片](task0001/result_img/result02.png)
 
 ### 2.2 期望达成
 
@@ -148,7 +148,27 @@
 - `font-size`
 - `font-weight`
 - `font-face`
-
+<li><code>text-indent 规定文本块首行的缩进。</code></li>
+<li><code>text-transform 控制文本的大小写。</code></li>
+<li><code>text-decoration 规定添加到文本的装饰效果。</code></li>
+<li><code>text-align 规定文本的水平对齐方式。</code></li>
+<li><code>word-spacing 设置单词间距。</code></li>
+<li><code>white-space 规定如何处理元素中的空白</code></li>
+<li><code>color 字体颜色</code></li>
+<li><code>line-height 设置行高</code></li>
+<li><code>font 字体</code></li>
+<li><code>font-family 字体设置</code></li>
+<li><code>font-size  字体大小</code></li>
+<li><code>font-weight 规定字体的粗细</code></li>
+<li><code>font-face 是css3中允许使用自定义字体的一个模块</code></li>
+<p>@font-face的语法规则：<br/>
+@font-face {<br/>
+	font-family: <FontName>;<br/>
+	src: <source> [<format>][,<source> [<format>]]*;<br/>
+	[font-weight: <weight>];<br/>
+	[font-style: <style>];<br/>
+}</p>
+![图片](task0001/result_img/result05.png)
 ### 5.2 期望达成
 
 - 掌握文本、文字、链接相关的样式属性
@@ -169,10 +189,15 @@
 在`task0001.html`中，实践以下内容：
 
 - 用两种方法来实现一个背景色为`红色`、宽度为`960px`的`<DIV>`在浏览器中居中
-- 有的圆角矩形是复杂图案，无法直接用border-radius，请在不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形 ![示例](img/task0001_7.png)
-- 用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 ![示例](img/task0001_3.jpg)
+- 有的圆角矩形是复杂图案，无法直接用border-radius，请在不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形 ![示例](task0001/result_img/border_radius_result.png)
+![示例](task0001/result_img/border_radius_解析.png)
+- 用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 ![示例](task0001/result_img/result_06-1.png)
 - 用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化
-- 实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 ![示例1](img/task0001_4.jpg) ![示例2](img/task0001_5.jpg)
+- （运用margin-left和margin-right)
+![示例](task0001/result_img/result_06-2.1.png)
+![示例](task0001/result_img/result_06-2.2.png)
+- 实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 ![示例1](img/task0001_4.jpg) ![示例2](task0001/result_img/result_06-3.1.png)
+![示例2](task0001/result_img/result_06-3.2.png)
 
 
 ### 6.2 期望达成
