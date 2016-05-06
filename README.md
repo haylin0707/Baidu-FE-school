@@ -210,7 +210,6 @@
 <li>有的圆角矩形是复杂图案，无法直接用border-radius，请在不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_7.png" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_7.png" alt="示例" style="max-width:100%;"></a></li>
 <li>用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_3.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_3.jpg" alt="示例" style="max-width:100%;"></a></li>
 <li>用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化</li>
-<p style="color:red"> 利用margin-left和margin-right</p>
 <li>实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_4.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_4.jpg" alt="示例1" style="max-width:100%;"></a> <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_5.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_5.jpg" alt="示例2" style="max-width:100%;"></a></li>
 </ul>
 
