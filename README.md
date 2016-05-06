@@ -161,13 +161,7 @@
 <li><code>font-size  字体大小</code></li>
 <li><code>font-weight 规定字体的粗细</code></li>
 <li><code>font-face 是css3中允许使用自定义字体的一个模块</code></li>
-<p>@font-face的语法规则：<br/>
-@font-face {<br/>
-	font-family: <FontName>;<br/>
-	src: <source> [<format>][,<source> [<format>]]*;<br/>
-	[font-weight: <weight>];<br/>
-	[font-style: <style>];<br/>
-}</p>
+
 ![图片](task0001/result_img/result05.png)
 ### 5.2 期望达成
 
