@@ -43,7 +43,7 @@
 
 最后的效果如下图：
 
-![图片](img/task0001_1.jpg)
+![图片](task0001/result_img/result01.png)
 
 ### 1.2 期望达成
 
