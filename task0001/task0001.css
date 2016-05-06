@@ -6,14 +6,33 @@ h2{
     font-size: 14px;
 }
 
-p{
+.p1{
     font-size: 12px;
     color: yellow;
     background-color: black;
 }
 
+h3{
+    text-indent: -2em;
+    text-transform: uppercase;
+    text-decoration: blink;
+    text-align: center;
+    word-spacing: 1em;
+    white-space: nowrap;
+    color: crimson;
+}
+.p2{
+    text-align: center;
+    line-height: 2em;
+    font-family:fantasy;
+    font-size:x-large;
+    font-weight: 200;
+}
+
 img{
     border: solid 2px red;
     padding: 2px;
+    width: 300px;
+    height: 200px;
 }
 
