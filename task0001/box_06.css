@@ -1,0 +1,56 @@
+#div1{
+    width: 960px;
+    height: 100px;
+    background-color: red;
+    margin: 0px auto;
+    border: solid 2px black;
+}
+
+#div2{
+    width:960px;
+    height: 100px;
+    margin-left: 12%;
+    background-color: red;
+    border: solid 2px black;
+}
+
+#mid{
+    height:100%;
+    background-color: white;
+    /*中间的文字只设置左右边框线*/
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.rtop{display: block; background-color:white;}
+/*这个元素自占一行，前后都带有换行符*/
+.rtop div{
+    display: block;
+    height: 1px;
+    overflow: hidden;}
+.rtop .r1{
+    /*最上面一根线*/
+    margin: 0 4px;
+    background-color: black;}
+.rtop .r2{
+    margin: 0 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;}
+.rtop .r3{
+    margin: 0 2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;}
+.rtop .r4{
+    margin: 0 1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 1px;}
+#mid p{
+    margin: 0;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    text-indent: 2em;
+    white-space: pre-wrap;
+    padding:0 10px;}

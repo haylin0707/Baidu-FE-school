@@ -1,0 +1,25 @@
+.divA{
+    width: 100px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.divB{
+    width: auto;
+    background-color: aquamarine;
+}
+
+.divC{
+    width: 100%;
+    background-color: lavenderblush;
+}
+
+.box{
+    width: 20%;
+    height: 30px;
+    margin: 1em;
+    border: double 1px red;
+    text-align: center;
+    background-color: blue;
+    display: inline-block;
+}

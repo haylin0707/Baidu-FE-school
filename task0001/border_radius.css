@@ -1,0 +1,44 @@
+.body{
+    background-color: white;
+    display: block;/*此元素将显示为块级元素，此元素前后会带有换行符*/
+}
+.line{
+    background-color: black;
+    margin:0px 4px;
+    overflow: hidden;/*IMPORTANT!!!!!!!!!!!!*/
+    height: 1px;/*不设置高度，这个div就不显示 IMPORTANT!!!!!!!!!!!!*/
+}
+
+.b1{
+    background-color:white;
+    margin: 0px 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;/*IMPORTANT!!!!!!!!!!!!*/
+    height: 1px;
+}
+
+.b2{
+    background-color: white;
+    margin: 0px 2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;/*IMPORTANT!!!!!!!!!!!!*/
+    height: 1px;
+}
+ .b3{
+     background-color: white;
+     margin: 0px 1px;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
+     overflow: hidden;/*IMPORTANT!!!!!!!!!!!!*/
+     height: 1px;
+ }
+
+ .content{
+     background-color: white;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
+     overflow: hidden;
+     margin: 0px;/*IMPORTANT!!!!!!!!!!!!*/
+ }

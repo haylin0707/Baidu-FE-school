@@ -160,19 +160,26 @@
 <p>在你的<code>task0001.html</code>中，快速实践以下文本相关的所有属性内容：</p>
 
 <ul>
-<li><code>text-indent</code></li>
-<li><code>text-transform</code></li>
-<li><code>text-decoration</code></li>
-<li><code>text-align</code></li>
-<li><code>word-spacing</code></li>
-<li><code>white-space</code></li>
-<li><code>color</code></li>
-<li><code>line-height</code></li>
-<li><code>font</code></li>
-<li><code>font-family</code></li>
-<li><code>font-size</code></li>
-<li><code>font-weight</code></li>
-<li><code>font-face</code></li>
+<li><code>text-indent 规定文本块首行的缩进。</code></li>
+<li><code>text-transform 控制文本的大小写。</code></li>
+<li><code>text-decoration 规定添加到文本的装饰效果。</code></li>
+<li><code>text-align 规定文本的水平对齐方式。</code></li>
+<li><code>word-spacing 设置单词间距。</code></li>
+<li><code>white-space 规定如何处理元素中的空白</code></li>
+<li><code>color 字体颜色</code></li>
+<li><code>line-height 设置行高</code></li>
+<li><code>font 字体</code></li>
+<li><code>font-family 字体设置</code></li>
+<li><code>font-size  字体大小</code></li>
+<li><code>font-weight 规定字体的粗细</code></li>
+<li><code>font-face 是css3中允许使用自定义字体的一个模块</code></li>
+<p>@font-face的语法规则：<br/>
+@font-face {<br/>
+	font-family: <FontName>;<br/>
+	src: <source> [<format>][,<source> [<format>]]*;<br/>
+	[font-weight: <weight>];<br/>
+	[font-style: <style>];<br/>
+}</p>
 </ul>
 
 <h3><a id="user-content-52-期望达成" class="anchor" href="#52-期望达成" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>5.2 期望达成</h3>
@@ -203,6 +210,7 @@
 <li>有的圆角矩形是复杂图案，无法直接用border-radius，请在不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_7.png" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_7.png" alt="示例" style="max-width:100%;"></a></li>
 <li>用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_3.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_3.jpg" alt="示例" style="max-width:100%;"></a></li>
 <li>用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化</li>
+<p style="color:red"> 利用margin-left和margin-right</p>
 <li>实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_4.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_4.jpg" alt="示例1" style="max-width:100%;"></a> <a href="/noticeZhou/ife/blob/master/2015_spring/task/task0001/img/task0001_5.jpg" target="_blank"><img src="/noticeZhou/ife/raw/master/2015_spring/task/task0001/img/task0001_5.jpg" alt="示例2" style="max-width:100%;"></a></li>
 </ul>
 
