@@ -1,0 +1,212 @@
+.blog-content{
+    width: 980px;
+    margin:20px auto 50px
+}
+
+.blog-article{
+    width: 710px;
+    margin-right: 10px;
+    float: left;
+}
+
+.blog-post{
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.tag{
+    width: 60px;
+    position: absolute;
+    left: -60px;
+}
+.tag-date{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+.tag-type{
+    background-color: #82678b;
+    color: snow;
+    padding: 10px;
+}
+
+.blog-post h1{
+    font-size: 16px;
+    color: purple;
+    margin-bottom: 10px;
+}
+.blog-post h2{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.blog-post p{
+    font-size: 10px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.blog-post section{
+    font-size: 8px;
+    color: gray;
+    float: right;
+}
+
+.page-number{
+    margin: 0 auto 100px;
+    width: 600px;
+}
+.first-last{
+    float: left;
+    text-align: center;
+    padding: 12px 15px;
+    margin: 0 5px;
+    background-color: white;
+    font-size: 12px;
+}
+.number-now{
+    float: left;
+    text-align: center;
+    padding: 12px 15px;
+    margin: 0 5px;
+    background-color: #82678b;
+    color: white;
+    font-size: 12px;
+}
+.number-invalid{
+    float: left;
+    text-align: center;
+    padding: 12px 15px;
+    margin: 0 5px;
+    background-color: white;
+    font-size: 12px;
+}
+
+/*右侧导航栏*/
+.sidebar{
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    float: right;
+}
+.side-search{
+    position: relative;
+    padding:20px;
+    background-color: white;
+    height: 40px;
+}
+.search{
+    position: absolute;
+    border: gainsboro 1px solid;
+    height: 40px;
+}
+.search:hover {
+    border: purple 1px solid;
+}
+.keyword{
+    border:none;
+    width: 200px;
+    height: 30px;
+    margin: 5px 0;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: 140px;
+    outline: medium;
+}
+.keyword:focus {
+    background-image: none;
+}
+.submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background: #e2e2e2;
+}
+.submit:hover {
+    background: purple;
+}
+
+/*右侧导航栏*/
+.side-type{
+    position: relative;
+    margin: 10px 0;
+}
+.side-type a{
+    text-decoration:none;
+}
+.post-type{
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 2px 0;
+    border-left: #807a8b 5px solid;
+}
+.post-type:hover {
+    border-left-color: #633680;
+}
+.post-type a:hover{
+    text-decoration: underline;
+}
+
+/*右侧日历*/
+.side-calendar{
+    position: relative;
+    margin: 7px 0;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.calendar{
+    text-align: center;
+    width: 200px;
+    height: 240px;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: auto;
+}
+.calendar tr{
+    border-bottom: gray 1px solid;
+}
+.calendar-dark {
+    color: purple;
+    font-weight: bold;
+}
+.calendar-now {
+    color: #fff;
+    background: purple;
+}
+
+/*右侧日历*/
+.side-tag{
+    position: relative;
+    margin: 7px 0;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.side-tag h3{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.tag-item {
+    color: gray;
+    font-size: 12px;
+}
+
+.tag-more {
+    font-size: 30px;
+    color: purple;
+    font-weight: bolder;
+}
+
+.tag-less {
+    font-size: 20px;
+    color: #c267ee;
+}
