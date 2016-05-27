@@ -148,6 +148,7 @@
     background-color: #ffffff;
     margin: 2px 0;
     border-left: #807a8b 5px solid;
+    color: #B8B2B9;
 }
 .post-type:hover {
     border-left-color: #633680;
