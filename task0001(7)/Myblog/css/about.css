@@ -1,0 +1,90 @@
+.resume{
+    width: 980px;
+    margin: 100px auto 20px;
+    background-color: white;
+    padding-bottom: 200px;
+}
+/*中间的分割线*/
+.mid-line{
+    width: 5px;
+    height: 1420px;
+    background-color: #e6e6e6;
+    left: 50%;
+    position: absolute;
+}
+
+/*第一个模块 Name*/
+.mod-name{
+    top: -50px;
+    position: relative;
+    text-align: center;
+}
+.name-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 8px solid #e6e6e6;
+    margin-bottom: 30px;
+    position: relative;
+}
+.mod-title{
+    float: left;
+    padding-right: 80px;
+    width: 375px;
+    font-size: 25px;
+    text-align: right;
+    font-family: cursive;
+}
+.mod-content{
+    float: right;
+    padding-right: 80px;
+    width: 400px;
+    font-size: 18px;
+    text-align: left;
+}
+.introduction{
+    font-size: 18px;
+    line-height: 25px;
+    text-indent: 2em;
+    word-break:break-all;/*自动换行*/
+}
+
+/*后面模块 Name*/
+.mod-item{
+    clear: both;
+    position: relative;
+    text-align: center;
+}
+.mod-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #e6e6e6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/*时间轴*/
+.time-rank{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-left: 450px;
+}
+.time-item{
+    text-align: center;
+    background-color: #FFF;
+    height: 33px;
+    line-height: 33px;
+    width: 69px;
+    float: left;
+    border: 5px solid #EEE;
+    border-radius: 10px;
+}
+.time-content{
+    padding-top: 10px;
+    width: 210px;
+    float: left;
+    margin-left: 10px;
+}
